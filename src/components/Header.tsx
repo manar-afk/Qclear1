@@ -12,8 +12,6 @@ export function Header({ onOpenDisclaimer }: HeaderProps) {
   const {
     language,
     setLanguage,
-    isSimpleLanguage,
-    toggleSimpleLanguage,
     isHighContrast,
     toggleHighContrast,
     t,
@@ -45,22 +43,6 @@ export function Header({ onOpenDisclaimer }: HeaderProps) {
 
         {/* Accessibility & Language Controls */}
         <div className="flex items-center gap-2 sm:gap-2.5" role="toolbar" aria-label="Application controls">
-          {/* Simple Language Toggle */}
-          <button
-            type="button"
-            onClick={toggleSimpleLanguage}
-            className={`min-h-[44px] px-3.5 py-2 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all border ${
-              isSimpleLanguage
-                ? 'bg-sky-500 text-slate-950 border-sky-400 font-bold shadow-sm'
-                : 'bg-white/5 text-slate-200 hover:bg-white/10 border-white/15'
-            }`}
-            aria-pressed={isSimpleLanguage}
-            aria-label={t.simpleLanguageToggle}
-            title={language === 'hi' ? 'छोटे और आसान शब्दों में मार्गदर्शन' : 'Short sentences and plain words'}
-          >
-            <span>{language === 'hi' ? 'सरल भाषा' : 'Simple Language'}</span>
-          </button>
-
           {/* High Contrast Mode Toggle */}
           <button
             type="button"

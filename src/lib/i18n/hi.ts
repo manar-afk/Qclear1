@@ -2,7 +2,7 @@ import { TranslationDictionary } from './types';
 
 export const hi: TranslationDictionary = {
   appName: 'QCLEAR (शुद्ध वायु साथी)',
-  tagline: 'गंभीर सर्दियों के स्मॉग और स्वच्छ जीवन के लिए आपका जेन-एआई साथी',
+  tagline: 'गंभीर सर्दियों के स्मॉग और स्वच्छ शहरी जीवन के लिए आपका साथी',
   languageSwitch: 'English',
   simpleLanguageToggle: 'सरल भाषा',
   highContrastToggle: 'हाई कंट्रास्ट',
@@ -42,7 +42,7 @@ export const hi: TranslationDictionary = {
   hourlyPm10: 'पीएम 10 (µg/m³)',
 
   // Household Presets
-  demoHouseholdsTitle: 'डेमो परिवार प्रीसेट (एक-क्लिक में अनुकूलन)',
+  demoHouseholdsTitle: 'अपने परिवार की स्थिति चुनें',
   presetToddlerElderlyName: 'छोटे बच्चे और बुजुर्गों वाला परिवार',
   presetToddlerElderlyDesc: 'उच्च संवेदनशीलता, गैस कुकिंग, दैनिक स्कूल आवागमन',
   presetSchoolRwaName: 'स्कूल और आरडब्ल्यूए (RWA) प्रबंधक',

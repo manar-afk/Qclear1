@@ -305,7 +305,7 @@ async function main() {
     const evalAskResult = await send('Runtime.evaluate', {
       expression: `(() => {
         const text = document.body.innerText;
-        const hasOfflineBadge = text.includes('Curated Offline Guidance') || text.includes('ऑफलाइन मार्गदर्शन');
+        const hasOfflineBadge = text.includes('Smart Advisory') || text.includes('स्मार्ट सलाह') || text.includes('Curated Offline Guidance');
         const hasAIBadge = text.includes('AI-Generated') || text.includes('एआई-जनित');
         const hasMedicalDisclaimer = text.includes('medical') || text.includes('चिकित्सा');
         return { hasOfflineBadge, hasAIBadge, hasMedicalDisclaimer };

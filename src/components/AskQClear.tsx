@@ -180,7 +180,7 @@ export function AskQClear({ aqiData, household }: AskQClearProps) {
               ) : (
                 <>
                   <Shield className="w-3 h-3 text-slate-300" />
-                  <span>{t.offlineGuidanceBadge}</span>
+                  <span>{language === 'hi' ? 'स्मार्ट सलाह' : 'Smart Advisory'}</span>
                 </>
               )}
             </span>

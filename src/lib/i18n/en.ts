@@ -2,7 +2,7 @@ import { TranslationDictionary } from './types';
 
 export const en: TranslationDictionary = {
   appName: 'QCLEAR',
-  tagline: 'Your GenAI Companion for Severe Winter Smog & Clean Urban Living',
+  tagline: 'Your Clean Air Companion for Severe Winter Smog & Urban Living',
   languageSwitch: 'हिन्दी',
   simpleLanguageToggle: 'Simple Language',
   highContrastToggle: 'High Contrast',
@@ -42,7 +42,7 @@ export const en: TranslationDictionary = {
   hourlyPm10: 'PM10 (µg/m³)',
 
   // Household Presets
-  demoHouseholdsTitle: 'Demo Household Presets (One-Click Tailoring)',
+  demoHouseholdsTitle: 'Choose Your Household Profile',
   presetToddlerElderlyName: 'Family with Toddler & Elderly',
   presetToddlerElderlyDesc: 'High respiratory sensitivity, gas cooking, daily school transit',
   presetSchoolRwaName: 'School & RWA Leader',
